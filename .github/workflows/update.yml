@@ -1,0 +1,54 @@
+name: 매물 수집·배포
+
+on:
+  schedule:            # 매일 08:00 / 14:00 / 18:00 (KST = UTC+9), 정각 혼잡 피해 5분 앞당김
+    - cron: "55 22 * * *"
+    - cron: "55 4 * * *"
+    - cron: "55 8 * * *"
+  workflow_dispatch: {}        # Actions 탭에서 수동 실행
+  push:
+    branches: [main]
+    paths: ["collector/**", "site/index.html", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: 수집
+        env:
+          ONBID_API_KEY: ${{ secrets.ONBID_API_KEY }}
+        run: python collector/collect.py
+      - name: 결과 저장
+        run: |
+          git config user.name "logistics-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add site/data/listings.json
+          git diff --cached --quiet || git commit -m "매물 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4
