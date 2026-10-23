@@ -1,0 +1,79 @@
+# 수동 등록 매물 — 법원경매·중개/증권사 소개·오프마켓 등 자동 수집이 안 되는 물건
+# ⚠ 저장소를 Public으로 두면 누구나 볼 수 있습니다 — 협상가·내부 판단 등 민감한 메모는 쓰지 마세요.
+# 한 건 = '- ' 로 시작하는 블록. 필수: id, title, addr. 금액·면적은 숫자(억원·평).
+# status 예: 검토중 / 추적관리 / 입찰예정 / 종료 / 보류
+- id: m-duwol
+  src: 중개(증권사)
+  title: 광주 두월냉장 저온물류센터
+  addr: 경기도 광주시 초월읍 신월리 605
+  cold: true
+  area_py: 5999
+  built: 2023.9
+  price_eok: 400
+  price_note: 매도측 호가(1차 제시)
+  status: 추적관리
+  memo: 저온 96.5%. 임대현황·설비 상태 확인 필요
+  date: 2026-09-29
+- id: m-hobeop
+  src: 채권·PF
+  title: 이천 호법 IJ로지스
+  addr: 경기도 이천시 호법면 안평리 21-35
+  cold: true
+  area_py: 5897
+  built: 2024.2
+  price_eok: 480
+  price_note: 채권 추정(PF 원리금·시공사 채권)
+  status: 검토중
+  memo: 저온 75%/상온 25%. 디폴트, 소송 진행 — 실제 매각조건 확인 필요
+  date: 2026-10-20
+- id: m-mokdong
+  src: 채권·PF
+  title: 광주 목동 물류센터
+  addr: 경기도 광주시 목동 189-1
+  cold: true
+  area_py: 5398
+  built: 2025.5
+  price_eok: 540
+  price_note: PF원금 추정
+  status: 검토중
+  memo: 저온 47%/상온 53%(동 기준). 디폴트 — 매각의사·채권관계·보관능력 확인
+  date: 2026-10-20
+- id: m-gaejeong
+  src: 법원경매
+  title: 안성 미양 개정리 냉동창고(우진냉장) 평택지원 2025타경532
+  addr: 경기도 안성시 미양면 개정리 210-2
+  cold: true
+  area_py: 7640
+  price_eok: 270.33
+  price_note: 최저가(감정 788.1억의 34%)
+  status: 입찰예정
+  deadline: 2026-11-09
+  memo: 기일 '변경' 표시 확인 필요. 냉동 톤수·설비·유치권 미확인
+  url: https://m.richgo.ai/auctionMobile/C53KPEJQ
+  date: 2026-10-22
+- id: m-hoeeok
+  src: 중개
+  title: 이천 마장 회억리 저온창고
+  addr: 경기도 이천시 마장면 회억리 100-2
+  cold: true
+  area_py: 2596
+  built: 2024.5
+  price_eok: 160
+  price_note: 매매 호가(6월 등록)
+  status: 검토중
+  memo: 현재 유효 여부·냉동 톤수 확인 필요. 규모가 자가 3,000~4,000평에 미달
+  url: https://www.rpaz.co.kr/customer/tradingview/OR0001-2606-0057
+  date: 2026-10-22
+- id: m-wongok
+  src: 법원경매
+  title: 안성 원곡 천덕산로 창고 2024타경4726
+  addr: 경기도 안성시 원곡면 천덕산로 828-6
+  cold: false
+  area_py: 5157
+  price_eok: 216.62
+  price_note: 최저가(감정 442.1억의 49%)
+  status: 결과확인필요
+  deadline: 2026-10-19
+  memo: 10/19 기일 결과 미확인, 매각결정 10/26
+  url: https://m.richgo.ai/auctionMobile/C68BMMWM
+  date: 2026-10-22

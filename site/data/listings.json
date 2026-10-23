@@ -1,0 +1,240 @@
+{
+ "updated": "2026-10-23 16:29",
+ "criteria": {
+  "regions": [
+   "경기",
+   "인천",
+   "서울",
+   "충북",
+   "충남",
+   "세종",
+   "대전"
+  ],
+  "location_tiers": {
+   "1": [
+    "용인",
+    "수원",
+    "화성",
+    "오산",
+    "성남",
+    "의왕"
+   ],
+   "2": [
+    "광주",
+    "이천",
+    "하남",
+    "음성",
+    "진천",
+    "여주"
+   ],
+   "3": [
+    "안성",
+    "평택",
+    "충주",
+    "장호원"
+   ]
+  },
+  "price_tiers": {
+   "1": 250,
+   "2": 350,
+   "3": 500
+  },
+  "area_pyeong": {
+   "min": 3000,
+   "max": 12000
+  },
+  "keywords": {
+   "include": [
+    "창고",
+    "물류",
+    "냉동",
+    "냉장",
+    "저온",
+    "콜드",
+    "로지스",
+    "풀필먼트",
+    "상온센터"
+   ],
+   "cold": [
+    "냉동",
+    "냉장",
+    "저온",
+    "콜드",
+    "신선"
+   ],
+   "exclude": [
+    "임대",
+    "사무실 일부",
+    "아파트",
+    "오피스텔",
+    "근린생활"
+   ]
+  },
+  "news_queries": [
+   "냉동창고 매각",
+   "저온 물류센터 매각",
+   "냉장 물류센터 매각",
+   "물류센터 매각 우선협상",
+   "물류센터 공매",
+   "냉동창고 공매",
+   "냉동창고 경매",
+   "물류센터 경매"
+  ],
+  "news_days": 45
+ },
+ "status": [
+  {
+   "name": "온비드 공매",
+   "ok": false,
+   "count": 0,
+   "message": "ONBID_API_KEY 미설정"
+  },
+  {
+   "name": "뉴스",
+   "ok": false,
+   "count": 0,
+   "message": "냉동창고 매각: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=%EB%83%89%EB%8F%99%EC%B0%BD%EA%B3%A0%20%EB%A7%A4%EA%B0%81+when:45d&hl=ko&gl=KR&ceid=KR:ko (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))); 저온 물류센터 매각: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=%EC%A0%80%EC%98%A8%20%EB%AC%BC%EB%A5%98%EC%84%BC%ED%84%B0%20%EB%A7%A4%EA%B0%81+when:45d&hl=ko&gl=KR&ceid=KR:ko (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))); 냉장 물류센터 매각: HTTPSConnectionPool(host='news.google.com', port=443): Max retries exceeded with url: /rss/search?q=%EB%83%89%EC%9E%A5%20%EB%AC%BC%EB%A5%98%EC%84%BC%ED%84%B0%20%EB%A7%A4%EA%B0%81+when:45d&hl=ko&gl=KR&ceid=KR:ko (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+   "name": "수동 등록(경매·중개)",
+   "ok": true,
+   "count": 6,
+   "message": ""
+  }
+ ],
+ "items": [
+  {
+   "id": "m-wongok",
+   "src": "법원경매",
+   "title": "안성 원곡 천덕산로 창고 2024타경4726",
+   "addr": "경기도 안성시 원곡면 천덕산로 828-6",
+   "cold": false,
+   "area_py": 5157,
+   "price_eok": 216.62,
+   "price_note": "최저가(감정 442.1억의 49%)",
+   "status": "결과확인필요",
+   "deadline": "2026-10-19",
+   "memo": "10/19 기일 결과 미확인, 매각결정 10/26",
+   "url": "https://m.richgo.ai/auctionMobile/C68BMMWM",
+   "date": "2026-10-22",
+   "sido": "경기",
+   "loc_tier": 3,
+   "price_tier": 1,
+   "grade": "B",
+   "why": "상온/미확인 · 위치 3순위 · 금액 1순위 · 규모 적정",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  },
+  {
+   "id": "m-gaejeong",
+   "src": "법원경매",
+   "title": "안성 미양 개정리 냉동창고(우진냉장) 평택지원 2025타경532",
+   "addr": "경기도 안성시 미양면 개정리 210-2",
+   "cold": true,
+   "area_py": 7640,
+   "price_eok": 270.33,
+   "price_note": "최저가(감정 788.1억의 34%)",
+   "status": "입찰예정",
+   "deadline": "2026-11-09",
+   "memo": "기일 '변경' 표시 확인 필요. 냉동 톤수·설비·유치권 미확인",
+   "url": "https://m.richgo.ai/auctionMobile/C53KPEJQ",
+   "date": "2026-10-22",
+   "sido": "경기",
+   "loc_tier": 3,
+   "price_tier": 2,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 3순위 · 금액 2순위 · 규모 적정",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  },
+  {
+   "id": "m-duwol",
+   "src": "중개(증권사)",
+   "title": "광주 두월냉장 저온물류센터",
+   "addr": "경기도 광주시 초월읍 신월리 605",
+   "cold": true,
+   "area_py": 5999,
+   "built": 2023.9,
+   "price_eok": 400,
+   "price_note": "매도측 호가(1차 제시)",
+   "status": "추적관리",
+   "memo": "저온 96.5%. 임대현황·설비 상태 확인 필요",
+   "date": "2026-09-29",
+   "sido": "경기",
+   "deadline": "",
+   "loc_tier": 2,
+   "price_tier": 3,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 2순위 · 금액 3순위 · 규모 적정",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  },
+  {
+   "id": "m-mokdong",
+   "src": "채권·PF",
+   "title": "광주 목동 물류센터",
+   "addr": "경기도 광주시 목동 189-1",
+   "cold": true,
+   "area_py": 5398,
+   "built": 2025.5,
+   "price_eok": 540,
+   "price_note": "PF원금 추정",
+   "status": "검토중",
+   "memo": "저온 47%/상온 53%(동 기준). 디폴트 — 매각의사·채권관계·보관능력 확인",
+   "date": "2026-10-20",
+   "sido": "경기",
+   "deadline": "",
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 2순위 · 금액 초과 · 규모 적정",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  },
+  {
+   "id": "m-hoeeok",
+   "src": "중개",
+   "title": "이천 마장 회억리 저온창고",
+   "addr": "경기도 이천시 마장면 회억리 100-2",
+   "cold": true,
+   "area_py": 2596,
+   "built": 2024.5,
+   "price_eok": 160,
+   "price_note": "매매 호가(6월 등록)",
+   "status": "검토중",
+   "memo": "현재 유효 여부·냉동 톤수 확인 필요. 규모가 자가 3,000~4,000평에 미달",
+   "url": "https://www.rpaz.co.kr/customer/tradingview/OR0001-2606-0057",
+   "date": "2026-10-22",
+   "sido": "경기",
+   "deadline": "",
+   "loc_tier": 2,
+   "price_tier": 1,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 2순위 · 금액 1순위 · 규모 범위 밖",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  },
+  {
+   "id": "m-hobeop",
+   "src": "채권·PF",
+   "title": "이천 호법 IJ로지스",
+   "addr": "경기도 이천시 호법면 안평리 21-35",
+   "cold": true,
+   "area_py": 5897,
+   "built": 2024.2,
+   "price_eok": 480,
+   "price_note": "채권 추정(PF 원리금·시공사 채권)",
+   "status": "검토중",
+   "memo": "저온 75%/상온 25%. 디폴트, 소송 진행 — 실제 매각조건 확인 필요",
+   "date": "2026-10-20",
+   "sido": "경기",
+   "deadline": "",
+   "loc_tier": 2,
+   "price_tier": 3,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 2순위 · 금액 3순위 · 규모 적정",
+   "first_seen": "2026-10-23 16:25",
+   "is_new": false
+  }
+ ]
+}
