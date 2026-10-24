@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24 08:11",
+ "updated": "2026-10-24 14:13",
  "criteria": {
   "regions": [
    "경기",
@@ -92,7 +92,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 39,
+   "count": 40,
    "message": ""
   },
   {
@@ -235,6 +235,44 @@
    "why": "냉동·저온 · 위치 2순위 · 금액 3순위 · 규모 적정",
    "first_seen": "2026-10-23 16:25",
    "is_new": false
+  },
+  {
+   "id": "news:파주냉동창고사건에용인카페마녀사냥오해억울별개사업장",
+   "src": "뉴스",
+   "title": "파주 냉동창고 사건에 용인 카페 마녀사냥…“오해 억울, 별개 사업장”",
+   "addr": "용인",
+   "sido": "",
+   "org": "경기일보",
+   "status": "보도",
+   "date": "2026-09-09",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xamlsV2cxSDYzajJhLWxUdHh2WVZFM1p4RHR3NHhlVVpoandqS3B0Q0U1QUI2QXFtTTZpN0NPWWdQbHZTaEQxcmRZN3dwWXdIbVMwU193Q3gxV0U?oc=5",
+   "query": "냉동창고 매각",
+   "cold": true,
+   "loc_tier": 1,
+   "price_tier": null,
+   "grade": "B",
+   "why": "냉동·저온 · 위치 1순위 · 금액 미상",
+   "first_seen": "2026-10-24 14:13",
+   "is_new": true
+  },
+  {
+   "id": "news:00년생이름000파주냉동창고살인피의자신상SNS서확산",
+   "src": "뉴스",
+   "title": "\"00년생 이름 000\"⋯'파주 냉동창고 살인' 피의자 신상 SNS서 확산",
+   "addr": "파주",
+   "sido": "",
+   "org": "아이뉴스24",
+   "status": "보도",
+   "date": "2026-09-09",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8tSlZkckE0Rng0b29MNDBMMl9nU3BuYXZCS2VscUJHTE9ZRDBWSTFlSEwxVDhCNVk2N0k3YmxieGtHOFF3TmpUd05GSQ?oc=5",
+   "query": "냉동창고 매각",
+   "cold": true,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "냉동·저온 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-24 14:13",
+   "is_new": true
   },
   {
    "id": "news:500억어치상품권가짜알아채범행냉동창고60대살해피의자상품권깡노렸나",
@@ -386,25 +424,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-24 08:11",
-   "is_new": true
-  },
-  {
-   "id": "news:공시분석쿠팡도고금리피하기3자배정유증1550억원물류센터대출금갚기용",
-   "src": "뉴스",
-   "title": "[공시분석] 쿠팡도 고금리 피하기 3자배정유증 1,550억원....물류센터 대출금 갚기용",
-   "addr": "",
-   "sido": "",
-   "org": "https://www.moneystorm.kr/",
-   "status": "보도",
-   "date": "2026-10-22",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YV1dNSHZCR2pkZEYxSVluUkVhVTVCbHM0dEowLUtTa214VnpmMEY2NVZxWVROWUlrOW91TFlQdE1RWXdvZ1pzaDZwQ3hKWl81cEpsUm9zLUdSYnhJaFJWTENOeUZoQTZWaWc?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
    "is_new": false
   },
   {
@@ -690,7 +709,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-24 08:11",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:수도권물류센터신규개발경제성붕괴",
