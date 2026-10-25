@@ -4,7 +4,7 @@ import re, html
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
 import xml.etree.ElementTree as ET
-from common import http_get, now_kst, is_target, sido_of
+from common import http_get, now_kst, is_news_target, sido_of
 
 RSS = "https://news.google.com/rss/search?q={q}+when:{d}d&hl=ko&gl=KR&ceid=KR:ko"
 REGION_WORDS = ["용인", "수원", "화성", "오산", "성남", "의왕", "광주", "이천", "하남", "음성", "진천", "여주",
@@ -27,9 +27,13 @@ def fetch(c, log=print):
             src = it.findtext("source") or ""
             t = re.sub(r"\s+-\s+[^-]+$", "", title)  # '제목 - 언론사' 꼬리 제거
             key = re.sub(r"\W", "", t)[:40]
-            if key in seen or not is_target(t, c):
+            if key in seen or not is_news_target(t, c):
                 continue
             seen.add(key)
+            short = "s:" + re.sub(r"\W", "", t)[:12]
+            if short in seen:
+                continue
+            seen.add(short)
             try:
                 dt = parsedate_to_datetime(it.findtext("pubDate")).astimezone(now_kst().tzinfo)
             except Exception:  # noqa: BLE001
