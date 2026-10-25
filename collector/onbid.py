@@ -88,7 +88,16 @@ def to_records(rows, c):
         sido = sido_of(addr, c["regions"]) or (cur.get("lctnSdnm") or "")[:2]
         if sido not in c["regions"]:
             continue
-        apsl, minp = to_num(cur.get("apslEvlAmt")), to_num(cur.get("lowstBidPrc"))
+        apsl = to_num(cur.get("apslEvlAmt"))
+        minp = None
+        for k in ("lowstBidPrcIndctCont", "lowstBidPrc", "lowstBidAmt", "minBidPrc"):
+            minp = to_num(cur.get(k))
+            if minp:
+                break
+        ref = minp or apsl
+        pr = c.get("price_range") or {}
+        if ref and not (pr.get("min", 0) * 1e8 <= ref <= pr.get("max", 1e9) * 1e8):
+            continue  # 찾는 금액대 밖
         bld, land = to_num(cur.get("bldSqms")), to_num(cur.get("landSqms"))
         keys = ("onbidCltrno", "onbidPbancNo", "pbctNo", "pbctCdtnNo")
         url = LIST_PAGE
@@ -100,10 +109,11 @@ def to_records(rows, c):
             "usage": usage, "org": cur.get("orgNm") or "", "prpt": cur.get("prptDivNm") or "",
             "area_py": round(bld / PY) if bld else None, "land_py": round(land / PY) if land else None,
             "appraisal_eok": round(apsl / 1e8, 1) if apsl else None,
-            "price_eok": round(minp / 1e8, 1) if minp else None,
-            "price_note": "최저입찰가" + (f"(감정가의 {minp / apsl * 100:.0f}%)" if apsl and minp else ""),
+            "price_eok": round(ref / 1e8, 1) if ref else None,
+            "price_note": ("최저입찰가" + (f"(감정가의 {minp / apsl * 100:.0f}%)" if apsl else "")) if minp else ("감정가 기준" if apsl else ""),
             "fails": int(to_num(cur.get("usbdNft")) or 0),
-            "status": "수의계약 가능" if (pv and not live) else (cur.get("pbctStatNm") or "진행"),
+            "status": (f"수의계약 가능(최종입찰 {_d(cur.get('cltrBidEndDt'))[:7]})" if _d(cur.get('cltrBidEndDt')) else "수의계약 가능")
+                      if (pv and not live) else (cur.get("pbctStatNm") or "진행"),
             "deadline": _d(cur.get("cltrBidEndDt")), "url": url,
         })
     return out
