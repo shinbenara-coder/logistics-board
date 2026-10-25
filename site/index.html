@@ -54,6 +54,7 @@ details summary{cursor:pointer;font-weight:600}
   <select id="loc"><option value="">위치 전체</option><option value="1">1순위(경부)</option><option value="2">2순위(중부)</option><option value="3">3순위(3번국도·기타)</option></select>
   <label><input type="checkbox" id="cold"> 냉동·저온만</label>
   <label><input type="checkbox" id="onlynew"> 신규만</label>
+  <label>금액 <input type="number" id="pmin" style="width:64px"> ~ <input type="number" id="pmax" style="width:64px"> 억</label>
   <select id="sort"><option value="grade">등급순</option><option value="due">마감 임박순</option><option value="price">금액 낮은순</option><option value="recent">최근 등록순</option></select>
  </div>
  <table><thead><tr><th>등급</th><th>물건</th><th>출처·상태</th><th>연면적</th><th>금액</th><th>마감/일자</th><th>판단 근거</th></tr></thead><tbody id="rows"></tbody></table>
@@ -63,11 +64,11 @@ details summary{cursor:pointer;font-weight:600}
 </main>
 <script>
 const $=s=>document.querySelector(s);
-const st={tab:'전체',grade:'',q:'',loc:'',cold:false,onlynew:false,sort:'grade'};
+const st={tab:'전체',grade:'',q:'',loc:'',cold:false,onlynew:false,sort:'grade',pmin:'200',pmax:'600'};
 const TABS=['전체','온비드 공매','법원경매','중개·채권','뉴스'];
 let D={items:[]};
 function load(){try{const u=new URLSearchParams(location.hash.slice(1));for(const k of Object.keys(st)){if(u.has(k))st[k]=typeof st[k]==='boolean'?u.get(k)==='1':u.get(k)}}catch(e){}}
-function save(){const u=new URLSearchParams();for(const[k,v]of Object.entries(st)){if(v&&v!=='grade'&&v!=='전체')u.set(k,v===true?'1':v)}history.replaceState(null,'','#'+u)}
+function save(){const u=new URLSearchParams();for(const[k,v]of Object.entries(st)){if(v&&v!=='grade'&&v!=='전체'&&!(k==='pmin'&&v==='200')&&!(k==='pmax'&&v==='600'))u.set(k,v===true?'1':v)}history.replaceState(null,'','#'+u)}
 function tabOf(r){if(r.src==='온비드 공매')return '온비드 공매';if(r.src==='뉴스')return '뉴스';if((r.src||'').includes('경매'))return '법원경매';return '중개·채권'}
 function dday(s){if(!s)return '';const d=new Date(s.slice(0,10)+'T00:00:00+09:00'),t=new Date();t.setHours(0,0,0,0);const n=Math.round((d-t)/864e5);return n<0?'종료':n===0?'D-day':'D-'+n}
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -82,6 +83,7 @@ function render(){
  const q=st.q.trim();
  let L=all.filter(r=>(st.tab==='전체'||tabOf(r)===st.tab)&&(!st.grade||r.grade===st.grade||(st.grade==='C'&&r.grade==='D'))
   &&(!st.loc||String(r.loc_tier)===st.loc)&&(!st.cold||r.cold)&&(!st.onlynew||r.is_new)
+  &&(r.price_eok==null||((!st.pmin||r.price_eok>=+st.pmin)&&(!st.pmax||r.price_eok<=+st.pmax)))
   &&(!q||[r.title,r.addr,r.org,r.memo].join(' ').includes(q)));
  const go={A:0,B:1,C:2,D:3};const dk=r=>{const d=r.deadline||'';return d&&dday(d)!=='종료'?d:'9'};
  const so={grade:(a,b)=>go[a.grade]-go[b.grade]||dk(a).localeCompare(dk(b)),
@@ -101,14 +103,14 @@ function render(){
  $('#empty').hidden=L.length>0;
 }
 function init(){
- load();$('#q').value=st.q;$('#loc').value=st.loc;$('#cold').checked=st.cold;$('#onlynew').checked=st.onlynew;$('#sort').value=st.sort;
+ load();$('#q').value=st.q;$('#loc').value=st.loc;$('#cold').checked=st.cold;$('#onlynew').checked=st.onlynew;$('#sort').value=st.sort;$('#pmin').value=st.pmin;$('#pmax').value=st.pmax;$('#pmin').oninput=e=>{st.pmin=e.target.value;render()};$('#pmax').oninput=e=>{st.pmax=e.target.value;render()};
  $('#q').oninput=e=>{st.q=e.target.value;render()};$('#loc').onchange=e=>{st.loc=e.target.value;render()};
  $('#cold').onchange=e=>{st.cold=e.target.checked;render()};$('#onlynew').onchange=e=>{st.onlynew=e.target.checked;render()};
  $('#sort').onchange=e=>{st.sort=e.target.value;render()};
  fetch('data/listings.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
-  $('#upd').textContent=`최종 갱신 ${d.updated} (매일 08·14·18시 자동) · 기준: 냉동 1.5~2만톤 · 경부>중부>3번국도 · 200~300억`;
+  $('#upd').textContent=`최종 갱신 ${d.updated} (매일 08·14·18시 자동) · 금액대 200~600억 · 냉동 우선 · 경부>중부>3번국도`;
   const c=d.criteria||{};
-  $('#crit').innerHTML=`<p><b>A 적합</b> 냉동·저온 + 위치 1·2순위 + ${c.price_tiers?.[2]??350}억 이하 + 연면적 ${c.area_pyeong?.min}~${c.area_pyeong?.max}평<br><b>B 검토</b> 위치 3순위·${c.price_tiers?.[3]??500}억 이내 창고, 또는 냉동이면서 위치·금액 중 하나만 벗어남<br><b>C 참고</b> 대상 지역 기타 창고 · <b>D</b> 금액 등 정보 부족</p>
+  $('#crit').innerHTML=`<p><b>A 적합</b> 냉동·저온 + 위치 1·2순위 + ${c.price_range?.min??200}~${c.price_range?.max??600}억 + 연면적 ${c.area_pyeong?.min}~${c.area_pyeong?.max}평<br><b>B 검토</b> 금액대 안 + (위치 1~3순위 또는 냉동)<br><b>C 참고</b> 금액대 밖 또는 기타 창고 · <b>D</b> 금액 등 정보 부족</p>
    <p>위치 1순위 ${(c.location_tiers?.[1]||[]).join('·')} / 2순위 ${(c.location_tiers?.[2]||[]).join('·')} / 3순위 ${(c.location_tiers?.[3]||[]).join('·')}</p>
    <p>기준 수정: collector/criteria.yaml · 경매·중개 물건 추가: collector/manual.yaml</p>`;
   $('#status').innerHTML=(d.status||[]).map(s=>`<div><span class="${s.ok?'ok':'bad'}">${s.ok?'●':'●'}</span> ${esc(s.name)} — ${s.count}건 ${s.message?'· '+esc(s.message.slice(0,200)):''}</div>`).join('');
