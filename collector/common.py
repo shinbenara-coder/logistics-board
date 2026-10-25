@@ -29,10 +29,14 @@ def http_get(url: str, params=None, timeout=30, tries=3):
 
 
 def to_num(v):
+    """숫자·'1,234,000원' 같은 문자열 모두 처리."""
     if v in (None, ""):
         return None
+    if isinstance(v, (int, float)):
+        return float(v)
+    s = re.sub(r"[^0-9.]", "", str(v))
     try:
-        return float(str(v).replace(",", "").strip())
+        return float(s) if s else None
     except ValueError:
         return None
 
@@ -51,11 +55,11 @@ def sido_of(addr: str, regions: list[str]) -> str:
 
 
 def grade(rec: dict, c: dict) -> dict:
-    """기획팀 기준으로 A/B/C/D 등급과 근거를 붙인다.
-    A: 냉동/저온 + 위치 1·2순위 + 금액 2순위(350억) 이하
-    B: 창고·물류 + 위치 1~3순위 + 금액 3순위(500억) 이하, 또는 냉동이면서 위치/금액 중 하나만 벗어남
-    C: 대상 지역 안의 기타 창고·물류
-    D: 정보 부족(금액·주소 불명) — 확인 필요"""
+    """A/B/C/D 등급과 근거.
+    A: 냉동/저온 + 위치 1·2순위 + 찾는 금액대(price_range) 안 + 규모 적정
+    B: 금액대 안 + (위치 1~3순위 또는 냉동)
+    C: 금액대 밖 또는 기타 창고·물류
+    D: 금액 미상 — 확인 필요"""
     text = " ".join(str(rec.get(k) or "") for k in ("title", "usage", "memo"))
     addr = rec.get("addr") or rec.get("title") or ""
     cold = rec.get("cold")
@@ -82,9 +86,13 @@ def grade(rec: dict, c: dict) -> dict:
     if area is not None:
         reasons.append("규모 적정" if area_ok else "규모 범위 밖")
 
-    if cold and loc <= 2 and ptier <= 2 and area_ok:
+    pr = c.get("price_range") or {}
+    in_range = price is not None and pr.get("min", 0) <= price <= pr.get("max", 1e9)
+    if price is not None and not in_range:
+        reasons.append("금액대 밖")
+    if cold and loc <= 2 and in_range and area_ok:
         g = "A"
-    elif (loc <= 3 and ptier <= 3) or (cold and (loc <= 3 or ptier <= 3)):
+    elif in_range and (loc <= 3 or cold):
         g = "B"
     elif price is None and rec.get("src") not in ("뉴스",):
         g = "D"
@@ -96,6 +104,12 @@ def grade(rec: dict, c: dict) -> dict:
     rec["grade"] = g
     rec["why"] = " · ".join(reasons)
     return rec
+
+
+def is_news_target(text: str, c: dict) -> bool:
+    k = c["keywords"]
+    return (is_target(text, c) and any(w in text for w in k.get("news_deal", []))
+            and not any(w in text for w in k.get("news_exclude", [])))
 
 
 def is_target(text: str, c: dict) -> bool:
