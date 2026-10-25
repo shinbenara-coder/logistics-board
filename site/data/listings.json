@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 14:15",
+ "updated": "2026-10-25 18:13",
  "criteria": {
   "regions": [
    "경기",
@@ -92,7 +92,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 36,
+   "count": 33,
    "message": ""
   },
   {
@@ -313,25 +313,6 @@
    "is_new": false
   },
   {
-   "id": "news:CBREIM쿠팡이100임차하는인천신흥동ILC물류센터매각추진SPI",
-   "src": "뉴스",
-   "title": "CBRE IM, 쿠팡이 100% 임차하는 인천 신흥동 ‘ILC 물류센터’ 매각 추진 - SPI",
-   "addr": "인천",
-   "sido": "",
-   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
-   "status": "보도",
-   "date": "2026-09-10",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JTDU0NnkxRzdGVlY4V0F1T2RvZ1ZLN2hER3c1RjJVMnFfYW03RjVXU09pTkpQakRYQkYtRlN5Rk5uU2lVd1RRTzNzcmZ3V3M3LTJqQW1DTUxDcFU?oc=5",
-   "query": "저온 물류센터 매각",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
-   "is_new": false
-  },
-  {
    "id": "news:KKR이인수마무리못한퍼시픽신세계HUB물류센터MG리얼에스테이트가투자추진SP",
    "src": "뉴스",
    "title": "KKR이 인수 마무리 못한 퍼시픽 ‘신세계HUB물류센터’, M&G리얼에스테이트가 투자 추진 - SPI",
@@ -367,7 +348,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:단독고삼물류신한자산신탁신탁계약약관공정위금감원에문제제기위탁자동의없는우선수익",
@@ -481,7 +462,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:고삼물류인허가의혹진정사건안성경찰서로이첩",
@@ -595,7 +576,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:물류센터서농산물안전검사새벽배송장보기안심하세요안전한食醫藥국민건강일군다",
@@ -652,7 +633,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:신영에셋수도권물류센터짓는것보다사는게유리",
@@ -747,25 +728,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
-  },
-  {
-   "id": "news:실리콘투1200억물류센터550억에인수취득재원은기존현금",
-   "src": "뉴스",
-   "title": "실리콘투, 1200억 물류센터 550억에 인수…\"취득재원은 기존 현금\"",
-   "addr": "",
-   "sido": "",
-   "org": "뉴스핌",
-   "status": "보도",
-   "date": "2026-09-10",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10N2YzYWdhaEF6VUFfUkhDMHVNYmJqZXB5V0N1ZkdVZ2sxMVVFS2xrNENhUktzcUVoOFcwdWJuNzAtOHFoN1BVOEtTcjJuMHJtRmY3MTluWWlXSEdQ?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
    "is_new": false
   },
   {
@@ -826,25 +788,6 @@
    "is_new": false
   },
   {
-   "id": "news:지식산업센터입주규제네거티브전환AI드론도심형물류도허용",
-   "src": "뉴스",
-   "title": "지식산업센터 입주규제 '네거티브' 전환…AI·드론·도심형 물류도 허용",
-   "addr": "",
-   "sido": "",
-   "org": "www.ebn.co.kr",
-   "status": "보도",
-   "date": "2026-09-10",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Ed242RThtV2Fia0NSUEFvTkdLRi1DaU9MeWM5QThxOXZzdUFoSTJYS0xHWW1ORmxrNUMwNkF6X3UtRHcxMVdKbV9ocWVjNkNtVE1XTDhYQU9TVmd1OGo1dXVUcHhYMUtG?oc=5",
-   "query": "물류센터 경매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
-   "is_new": false
-  },
-  {
    "id": "news:코람코SC로위로부터연이자율125에1100억빌려시화데콘물류센터EOD치유SP",
    "src": "뉴스",
    "title": "코람코, SC로위로부터 연 이자율 12.5%에 1,100억 빌려 ‘시화 데콘 물류센터’ EOD 치유 - SPI",
@@ -861,7 +804,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-25 14:15",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:코람코우정사업본부롯데덕평물류센터우협미래에셋노란우산공제회제쳐SPI",
