@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 08:08",
+ "updated": "2026-10-25 14:15",
  "criteria": {
   "regions": [
    "경기",
@@ -92,7 +92,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 30,
+   "count": 36,
    "message": ""
   },
   {
@@ -246,7 +246,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1odXRONWVZdDVsekprdV9wZkNjMFI0OS1mVWM2OEM5aVlKZWJXVEdULXAtOGVqVEc0UXIyRVBBem1yWVAyQ0V4VXNYak44SFI3aEQ3Q2FLNnl4QQ?oc=5",
-   "query": "물류센터 경매",
+   "query": "물류센터 공매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
@@ -351,6 +351,25 @@
    "is_new": false
   },
   {
+   "id": "news:PF막히고공사비뛰자공급절벽기존물류센터몸값오른다",
+   "src": "뉴스",
+   "title": "PF 막히고 공사비 뛰자 공급 절벽…기존 물류센터 몸값 오른다",
+   "addr": "",
+   "sido": "",
+   "org": "아주경제",
+   "status": "보도",
+   "date": "2026-09-25",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBON1BWdUg1ZmxVMUNycHJwUm1jWmh5SUc5S2dqTGVtUlJ1dmRSNWJXaTFzdE1SaUpLeS1OVjdJMHZVSmxmT0pqRkl6MHlhb3VXRVRXRlo3Y1BGZ9IBWEFVX3lxTE1ZVG9md0g2WWJjdXJXQ2hRWGYycDh3XzJCc0hwUjI0OVNuelgycHBxa185dHNVM0VsZjBuMDRELVl6ZDN4czF6cWdwblNlVS0xRUxKMGg2b3M?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
+  },
+  {
    "id": "news:단독고삼물류신한자산신탁신탁계약약관공정위금감원에문제제기위탁자동의없는우선수익",
    "src": "뉴스",
    "title": "[단독] 고삼물류, 신한자산신탁 신탁계약 약관 공정위·금감원에 문제 제기…“위탁자 동의 없는 우선수익자 변경 적정했나”",
@@ -446,6 +465,25 @@
    "is_new": false
   },
   {
+   "id": "news:고삼물류동의없이신탁원부변경한국투자증권신한자산신탁배임의혹금감원민원",
+   "src": "뉴스",
+   "title": "고삼물류 “동의 없이 신탁원부 변경”…한국투자증권·신한자산신탁 배임 의혹 금감원 민원",
+   "addr": "",
+   "sido": "",
+   "org": "경기남부저널",
+   "status": "보도",
+   "date": "2026-10-05",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oQjZ3clZIaTNBTFpyOGlGV0pLUVFmQjFxVWVMdDZ6NlRMS3NVVGN5eGdWTW9STFdyZFI5MWI2ekM1RVowLXpYZW44a2lmWlZFdThJZVdIQWtYMnI3NFczVWl6QzVJVVHSAWtBVV95cUxNb09EcXdhQ0podnA0LWgyNHAzVFlvMjRFWXQzNGtvYnRzdE05Z3E3NHFxdXJ4ek1ZZnc2Ym1Tb3BkeHBmVDh5cHU0dXNRSEJKYnptOE5JaTlSOEl0c0ZXcFRPamZNMlNhTzFQSQ?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
+  },
+  {
    "id": "news:고삼물류인허가의혹진정사건안성경찰서로이첩",
    "src": "뉴스",
    "title": "고삼물류 인허가 의혹 진정사건, 안성경찰서로 이첩",
@@ -508,10 +546,10 @@
    "title": "롯데 덕평 물류센터 우협에 코람코자산신탁",
    "addr": "",
    "sido": "",
-   "org": "매일경제",
+   "org": "매일경제 마켓",
    "status": "보도",
    "date": "2026-09-16",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95OHZOREFtenZGaGJIY0luUndXRXB2cWZ4cEZaY2FtS2NLdldTMk9JQllwckt5WDVpdkpRUFVNNTc4VV9Eb1E1anFIVXpPWFZ1NVE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hS1gzZHZLSjBya05hT1VBQnF5Q2t3bnJCZWpxXzVZa09lVlJpVVNiR0dBMHZsNHM1Y040SF9Md0pxZlJyM2c1VTJVRV9jbFNQU1E?oc=5",
    "query": "물류센터 매각 우선협상",
    "cold": false,
    "loc_tier": null,
@@ -539,6 +577,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-23 16:52",
    "is_new": false
+  },
+  {
+   "id": "news:물류센터공사비폭등에PF까지막혔다수도권신축불가시대오나",
+   "src": "뉴스",
+   "title": "물류센터 공사비 폭등에 PF까지 막혔다···수도권 '신축 불가' 시대 오나",
+   "addr": "",
+   "sido": "",
+   "org": "스마트비즈",
+   "status": "보도",
+   "date": "2026-09-22",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5Qmx4WlJmMVNvWkd4akhjQTJ4VWFhWjlJcE9CcHlrS1lMQnVqSlFHOHNRVUVWbHhZQ202cHFQZEI1dnhBX3BiWjIzQkNBc3RpbUt2b2EtdkpzbWRSckVWaFNVZld0RXZsWFFXeA?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
   },
   {
    "id": "news:물류센터서농산물안전검사새벽배송장보기안심하세요안전한食醫藥국민건강일군다",
@@ -579,6 +636,25 @@
    "is_new": false
   },
   {
+   "id": "news:수도권물류센터신규개발경제성붕괴",
+   "src": "뉴스",
+   "title": "수도권 물류센터, 신규 개발 ‘경제성 붕괴’",
+   "addr": "",
+   "sido": "",
+   "org": "DealSite경제TV",
+   "status": "보도",
+   "date": "2026-09-28",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tSmlFMmhKR0xtMHVBWUtXcDBiZmV2ZnJsVFFYVUQ0TVpkcl9QOW5BUGNTS2lnTkFnMWczTDBneXpfbGNRYTVYUGZQQ1JodnJ6MVE0RUtB?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
+  },
+  {
    "id": "news:신영에셋수도권물류센터짓는것보다사는게유리",
    "src": "뉴스",
    "title": "신영에셋 \"수도권 물류센터 짓는 것보다 사는 게 유리\"",
@@ -607,7 +683,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 경매",
+   "query": "물류센터 공매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
@@ -653,6 +729,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-23 16:52",
    "is_new": false
+  },
+  {
+   "id": "news:신한銀코람코NH손절한이천물류센터부지라이언이샀다",
+   "src": "뉴스",
+   "title": "신한銀·코람코·NH 손절한 이천 물류센터 부지, 라이언이 샀다",
+   "addr": "이천",
+   "sido": "",
+   "org": "블로그",
+   "status": "보도",
+   "date": "2026-10-19",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kRm03bWNiV2JFZmlkSDBKRGRFM1B5WjZucmx5aDhadU9RcF83dUtyOF9oaHA3MEJrVFlkVlZtREZUWGo2Mk9IbmdoTEtKTndXdTJFaVo3M1l5S044anMybnFzRlgxLXFaNkhtZFB2QnBaLXA2aGktMGNhRUN5ZTQ?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
   },
   {
    "id": "news:실리콘투1200억물류센터550억에인수취득재원은기존현금",
@@ -748,6 +843,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-23 16:52",
    "is_new": false
+  },
+  {
+   "id": "news:코람코SC로위로부터연이자율125에1100억빌려시화데콘물류센터EOD치유SP",
+   "src": "뉴스",
+   "title": "코람코, SC로위로부터 연 이자율 12.5%에 1,100억 빌려 ‘시화 데콘 물류센터’ EOD 치유 - SPI",
+   "addr": "",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-09-22",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fU2FtTk4yNnlVYVNSSEFpT1dpajJweS1kdzBKbEtGVGg5Y1ZLNHVRNXA2S1NYb3dGanByOUpWNG51SWh2NG1jeGk5Y25GS1JhejY5eHVWdXJPdE0?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-25 14:15",
+   "is_new": true
   },
   {
    "id": "news:코람코우정사업본부롯데덕평물류센터우협미래에셋노란우산공제회제쳐SPI",
