@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 18:26",
+ "updated": "2026-10-27 08:16",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 8,
+   "count": 10,
    "message": ""
   },
   {
@@ -317,8 +317,7 @@
    "grade": "B",
    "why": "상온/미확인 · 위치 3순위 · 금액 1순위 · 규모 적정",
    "first_seen": "2026-10-23 16:59",
-   "is_new": false,
-   "price_change": "220.2→293.6억"
+   "is_new": false
   },
   {
    "id": "m-gaejeong",
@@ -341,6 +340,25 @@
    "why": "냉동·저온 · 위치 3순위 · 금액 1순위 · 규모 적정",
    "first_seen": "2026-10-23 16:25",
    "is_new": false
+  },
+  {
+   "id": "news:수도권물류센터새로짓는것보다기존매물사는게저렴",
+   "src": "뉴스",
+   "title": "\"수도권 물류센터, 새로 짓는 것보다 기존 매물 사는 게 저렴\"",
+   "addr": "",
+   "sido": "",
+   "org": "뉴스핌",
+   "status": "보도",
+   "date": "2026-09-22",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iUUNscF9oTzBidXNZY0RJekYxYjBCdy1kUVRxSlNfOWYtZ3dLOGcxY2NGS1BaWkducDctWjIwRnVYczQ0Q0w5N3QtT1ZQYWtuZlhkdy1YLUhhSjRT?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-27 08:16",
+   "is_new": true
   },
   {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
@@ -438,6 +456,25 @@
    "is_new": false
   },
   {
+   "id": "news:수도권물류센터개발보다인수로투자공식변화",
+   "src": "뉴스",
+   "title": "수도권 물류센터, 개발보다 인수로 투자 공식 변화",
+   "addr": "",
+   "sido": "",
+   "org": "프라임경제",
+   "status": "보도",
+   "date": "2026-09-22",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yUk1TUGg4c0V1bFluNkNMR09XWENhVGY2QVR1dTRCRmxtOGNfNW5zU1h0NThKcDFqekRWQ1dXaWNtejl4Q2dMNXByU1ZrMlZabDcyeVYtVjYzcHdzSk9uSHNOWGI1WjFVcHhjMHVtYjUzdw?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-27 08:16",
+   "is_new": true
+  },
+  {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
    "src": "뉴스",
    "title": "신영에셋 “수도권 물류센터, 신규 개발보다 기존 자산 매입이 유리”",
@@ -447,7 +484,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 경매",
+   "query": "물류센터 공매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
