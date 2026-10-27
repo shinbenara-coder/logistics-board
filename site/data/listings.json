@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27 08:16",
+ "updated": "2026-10-27 14:19",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 10,
+   "count": 11,
    "message": ""
   },
   {
@@ -342,22 +342,22 @@
    "is_new": false
   },
   {
-   "id": "news:수도권물류센터새로짓는것보다기존매물사는게저렴",
+   "id": "news:감정가보다19싸게매입코람코리츠안양물류센터편입",
    "src": "뉴스",
-   "title": "\"수도권 물류센터, 새로 짓는 것보다 기존 매물 사는 게 저렴\"",
+   "title": "\"감정가보다 19% 싸게 매입…\" 코람코리츠, 안양 물류센터 편입",
    "addr": "",
    "sido": "",
-   "org": "뉴스핌",
+   "org": "파이낸셜뉴스",
    "status": "보도",
-   "date": "2026-09-22",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iUUNscF9oTzBidXNZY0RJekYxYjBCdy1kUVRxSlNfOWYtZ3dLOGcxY2NGS1BaWkducDctWjIwRnVYczQ0Q0w5N3QtT1ZQYWtuZlhkdy1YLUhhSjRT?oc=5",
-   "query": "물류센터 공매",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucXp1MTcwZW9rY3ZOdmxPYWhoREc2NXlOQ2VhSmJxOC15bV9nYVRZRWJ1dDZsS1Bzbk92TlUzbDRNTnhITHRMUkpDUXpJTkFNYmowSmJsU2dBZw?oc=5",
+   "query": "물류센터 매각 우선협상",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-27 08:16",
+   "first_seen": "2026-10-27 14:19",
    "is_new": true
   },
   {
@@ -456,25 +456,6 @@
    "is_new": false
   },
   {
-   "id": "news:수도권물류센터개발보다인수로투자공식변화",
-   "src": "뉴스",
-   "title": "수도권 물류센터, 개발보다 인수로 투자 공식 변화",
-   "addr": "",
-   "sido": "",
-   "org": "프라임경제",
-   "status": "보도",
-   "date": "2026-09-22",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yUk1TUGg4c0V1bFluNkNMR09XWENhVGY2QVR1dTRCRmxtOGNfNW5zU1h0NThKcDFqekRWQ1dXaWNtejl4Q2dMNXByU1ZrMlZabDcyeVYtVjYzcHdzSk9uSHNOWGI1WjFVcHhjMHVtYjUzdw?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-27 08:16",
-   "is_new": true
-  },
-  {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
    "src": "뉴스",
    "title": "신영에셋 “수도권 물류센터, 신규 개발보다 기존 자산 매입이 유리”",
@@ -484,7 +465,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 공매",
+   "query": "물류센터 경매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
@@ -534,6 +515,44 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-23 16:52",
    "is_new": false
+  },
+  {
+   "id": "news:코람코라이프인프라리츠안양물류센터2700억에인수",
+   "src": "뉴스",
+   "title": "코람코라이프인프라리츠, 안양물류센터 2700억에 인수",
+   "addr": "",
+   "sido": "",
+   "org": "뉴시스",
+   "status": "보도",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RSjhVeWlGdHluME9vNmExMWdLYVMxNUxPXzl1eXNlN1U1Sk11OUh0Z0Q4ZDFZQlljaDVONDZlY0hpbTVFMTVOUVVuZDJVTjRfWC1JTUh5enRMSUJ5clF3M2NNNVVFUHA2N3BZOEE5YlUwV0xvMzNTdtIBeEFVX3lxTE9RSjhVeWlGdHluME9vNmExMWdLYVMxNUxPXzl1eXNlN1U1Sk11OUh0Z0Q4ZDFZQlljaDVONDZlY0hpbTVFMTVOUVVuZDJVTjRfWC1JTUh5enRMSUJ5clF3M2NNNVVFUHA2N3BZOEE5YlUwV0xvMzNTdg?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-27 14:19",
+   "is_new": true
+  },
+  {
+   "id": "news:코람코라이프인프라리츠유증없이안양물류센터2700억인수",
+   "src": "뉴스",
+   "title": "코람코라이프인프라리츠, 유증 없이 안양물류센터 2700억 인수",
+   "addr": "",
+   "sido": "",
+   "org": "이투데이",
+   "status": "보도",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0MmRiTEFiMWF4dDlrVzVhclptODZWU0pPemdWdnRkUExkSDdsRkhBeXJoeUJPVGptODhYcmo3bG8wQVVJNzZuN1NjaURtaVNCbUFZVQ?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-27 14:19",
+   "is_new": true
   },
   {
    "id": "news:큐브인더스트리얼운용공매유찰된원창동물류센터평당460만원에인수상온컨버전추진S",
