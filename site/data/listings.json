@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 14:27",
+ "updated": "2026-10-29 18:34",
  "criteria": {
   "regions": [
    "경기",
@@ -446,7 +446,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 공매",
+   "query": "물류센터 경매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
@@ -538,7 +538,7 @@
   {
    "id": "news:큐브인더스트리얼운용공매유찰된원창동물류센터평당460만원에인수상온컨버전추진S",
    "src": "뉴스",
-   "title": "큐브인더스트리얼운용, 공매 유찰된 원창동 물류센터 평당 460만원에 인수... 상온 컨버전 추진 - SPI",
+   "title": "큐브인더스트리얼운용, 공매 유찰된 원창동 물류센터 평당 460만 원에 인수... 상온 컨버전 추진 - SPI",
    "addr": "",
    "sido": "",
    "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
