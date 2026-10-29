@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 08:21",
+ "updated": "2026-10-29 14:27",
  "criteria": {
   "regions": [
    "경기",
@@ -446,7 +446,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 경매",
+   "query": "물류센터 공매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
