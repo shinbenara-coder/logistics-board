@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 18:34",
+ "updated": "2026-10-30 08:22",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 10,
+   "count": 13,
    "message": ""
   },
   {
@@ -342,6 +342,25 @@
    "is_new": false
   },
   {
+   "id": "news:감정가보다19싸게매입코람코리츠안양물류센터편입",
+   "src": "뉴스",
+   "title": "\"감정가보다 19% 싸게 매입…\" 코람코리츠, 안양 물류센터 편입",
+   "addr": "",
+   "sido": "",
+   "org": "파이낸셜뉴스",
+   "status": "보도",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucXp1MTcwZW9rY3ZOdmxPYWhoREc2NXlOQ2VhSmJxOC15bV9nYVRZRWJ1dDZsS1Bzbk92TlUzbDRNTnhITHRMUkpDUXpJTkFNYmowSmJsU2dBZw?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-30 08:22",
+   "is_new": true
+  },
+  {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
    "src": "뉴스",
    "title": "1900억 물류센터 인수 10개월만에…'공실 제로' 달성한 비결",
@@ -456,6 +475,25 @@
    "is_new": false
   },
   {
+   "id": "news:음성금왕테크노밸리복합물류센터매물로캐피탈마켓그룹재정비한쿠시먼이매각자문SPI",
+   "src": "뉴스",
+   "title": "음성 금왕테크노밸리 복합물류센터 매물로, 캐피탈마켓그룹 재정비한 쿠시먼이 매각자문 - SPI",
+   "addr": "음성",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-10-30",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WZm9XV0luYlNqSUhmcVlDQm8tRW9lUlpQNW1pangwXzdkUGhfRElVbEF2dGJ4YTBjME5DMi1CTzFmQTNUN2dGT1lRUGJCODBhTk11QnhxTDVTcmc?oc=5",
+   "query": "저온 물류센터 매각",
+   "cold": false,
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-10-30 08:22",
+   "is_new": true
+  },
+  {
    "id": "m-hoeeok",
    "src": "중개",
    "title": "이천 마장 회억리 저온창고",
@@ -534,6 +572,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-27 14:19",
    "is_new": false
+  },
+  {
+   "id": "news:코람코라이프인프라리츠유증없이안양물류센터2700억인수",
+   "src": "뉴스",
+   "title": "코람코라이프인프라리츠, 유증 없이 안양물류센터 2700억 인수",
+   "addr": "",
+   "sido": "",
+   "org": "이투데이",
+   "status": "보도",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0MmRiTEFiMWF4dDlrVzVhclptODZWU0pPemdWdnRkUExkSDdsRkhBeXJoeUJPVGptODhYcmo3bG8wQVVJNzZuN1NjaURtaVNCbUFZVQ?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-30 08:22",
+   "is_new": true
   },
   {
    "id": "news:큐브인더스트리얼운용공매유찰된원창동물류센터평당460만원에인수상온컨버전추진S",
