@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 14:26",
+ "updated": "2026-10-30 18:34",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "message": ""
   },
   {
@@ -453,7 +453,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-30 14:26",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
@@ -533,25 +533,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-28 08:16",
-   "is_new": false
-  },
-  {
-   "id": "news:코람코우정사업본부롯데덕평물류센터우협미래에셋노란우산공제회제쳐SPI",
-   "src": "뉴스",
-   "title": "코람코-우정사업본부, ‘롯데 덕평 물류센터’ 우협… 미래에셋-노란우산공제회 제쳐 - SPI",
-   "addr": "",
-   "sido": "",
-   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
-   "status": "보도",
-   "date": "2026-09-15",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wcmJCdURhUVNwNkxyNGhrODQybGZfaXhFTDlVZ2Z3UE5pOW9ULXFOdVROTE5vVU9UejdPWk9iM1FFMndqandmOEtPUkMyWXdGM1FYY3czQnR2Y1E?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
    "is_new": false
   },
   {
