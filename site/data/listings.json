@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 08:22",
+ "updated": "2026-10-30 14:26",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 13,
+   "count": 12,
    "message": ""
   },
   {
@@ -342,25 +342,6 @@
    "is_new": false
   },
   {
-   "id": "news:감정가보다19싸게매입코람코리츠안양물류센터편입",
-   "src": "뉴스",
-   "title": "\"감정가보다 19% 싸게 매입…\" 코람코리츠, 안양 물류센터 편입",
-   "addr": "",
-   "sido": "",
-   "org": "파이낸셜뉴스",
-   "status": "보도",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucXp1MTcwZW9rY3ZOdmxPYWhoREc2NXlOQ2VhSmJxOC15bV9nYVRZRWJ1dDZsS1Bzbk92TlUzbDRNTnhITHRMUkpDUXpJTkFNYmowSmJsU2dBZw?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-30 08:22",
-   "is_new": true
-  },
-  {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
    "src": "뉴스",
    "title": "1900억 물류센터 인수 10개월만에…'공실 제로' 달성한 비결",
@@ -456,6 +437,25 @@
    "is_new": false
   },
   {
+   "id": "news:모건스탠리아시아코어펀드공매나온MQ김포대포물류센터에투자",
+   "src": "뉴스",
+   "title": "모건스탠리 아시아 코어펀드, 공매 나온 MQ 김포 대포물류센터에 투자",
+   "addr": "김포",
+   "sido": "",
+   "org": "코어비트",
+   "status": "보도",
+   "date": "2026-10-29",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5cEI1X0pzay1xRmVZSXFtNWZrQXliSkV1clRIZ29OTllfcG56U3VXU1hWLTduOGZLUEc3Q05zSkhwOGVWQVlEMmlySnM5M3FX?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-10-30 14:26",
+   "is_new": true
+  },
+  {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
    "src": "뉴스",
    "title": "신영에셋 “수도권 물류센터, 신규 개발보다 기존 자산 매입이 유리”",
@@ -491,7 +491,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-10-30 08:22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "m-hoeeok",
@@ -572,25 +572,6 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-27 14:19",
    "is_new": false
-  },
-  {
-   "id": "news:코람코라이프인프라리츠유증없이안양물류센터2700억인수",
-   "src": "뉴스",
-   "title": "코람코라이프인프라리츠, 유증 없이 안양물류센터 2700억 인수",
-   "addr": "",
-   "sido": "",
-   "org": "이투데이",
-   "status": "보도",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0MmRiTEFiMWF4dDlrVzVhclptODZWU0pPemdWdnRkUExkSDdsRkhBeXJoeUJPVGptODhYcmo3bG8wQVVJNzZuN1NjaURtaVNCbUFZVQ?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-30 08:22",
-   "is_new": true
   },
   {
    "id": "news:큐브인더스트리얼운용공매유찰된원창동물류센터평당460만원에인수상온컨버전추진S",
