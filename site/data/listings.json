@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 18:25",
+ "updated": "2026-11-01 08:18",
  "criteria": {
   "regions": [
    "경기",
@@ -533,7 +533,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-31 18:25",
-   "is_new": true
+   "is_new": false
   }
  ]
 }
