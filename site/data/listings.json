@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 08:24",
+ "updated": "2026-11-03 14:38",
  "criteria": {
   "regions": [
    "경기",
@@ -358,7 +358,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-03 08:24",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
@@ -423,10 +423,10 @@
    "title": "마이다스에셋운용, 김포 대포물류센터 인수",
    "addr": "김포",
    "sido": "",
-   "org": "딜사이트",
+   "org": "블로그",
    "status": "보도",
-   "date": "2026-10-26",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsNU1XREpMdGtDaHBCVGZpVDlQTklueS1nVWFMcTd1WVpSNVc5ak1EeUVMdjcyUXZQbGtLRHFHeXc3MlJyNlZtN3FCSElzaFU?oc=5",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QX1Z1WlJESjBvbGZkeHgtOGtqSFFzVU9wZ2Z2Nk5Rd3hfZmNuSXZCcU9GS29nQW5RSXkzV0podUp6aXR1azJ6TUtrY1JDUnRFLVFDejd3dGhrdWVoV2l5WFAyY2hCQXdkT0ljbG9MWHBrU3FqU3RyclBHSERsOE0?oc=5",
    "query": "저온 물류센터 매각",
    "cold": false,
    "loc_tier": null,
@@ -472,7 +472,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-03 08:24",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
