@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 14:38",
+ "updated": "2026-11-03 18:41",
  "criteria": {
   "regions": [
    "경기",
@@ -136,13 +136,13 @@
   {
    "name": "온비드 공매",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "message": ""
   },
   {
    "name": "뉴스",
    "ok": true,
-   "count": 11,
+   "count": 9,
    "message": ""
   },
   {
@@ -268,32 +268,6 @@
    "is_new": false
   },
   {
-   "id": "onbid:2026-1000-058042",
-   "src": "온비드 공매",
-   "title": "경기도 용인시 처인구 원삼면 가재월리 420 창고시설",
-   "addr": "경기도 용인시 처인구 원삼면",
-   "sido": "경기",
-   "usage": "산업용및기타특수용건물 > 창고시설",
-   "org": "한국자산관리공사",
-   "prpt": "기타일반재산",
-   "area_py": 4798,
-   "land_py": 6053,
-   "appraisal_eok": 356.5,
-   "price_eok": 356.5,
-   "price_note": "최저입찰가(감정가의 100%)",
-   "fails": 0,
-   "status": "입찰진행중",
-   "deadline": "2026-11-03 17:00",
-   "url": "https://www.onbid.co.kr/op/cltrpbancinf/cltrdtl/CltrDtlController/mvmnCltrDtl.do?cltrScrnGrpCd=0001&cltrPrptDivCd=0005&onbidCltrno=2072027&onbidPbancNo=910740&pbctNo=10112553&pbctCdtnNo=6255653",
-   "cold": false,
-   "loc_tier": 1,
-   "price_tier": 2,
-   "grade": "B",
-   "why": "상온/미확인 · 위치 1순위 · 금액 2순위 · 규모 적정",
-   "first_seen": "2026-10-26 14:20",
-   "is_new": false
-  },
-  {
    "id": "m-gaejeong",
    "src": "법원경매",
    "title": "안성 미양 개정리 냉동창고(우진냉장) 평택지원 2025타경532",
@@ -339,25 +313,6 @@
    "grade": "B",
    "why": "상온/미확인 · 위치 3순위 · 금액 1순위 · 규모 적정",
    "first_seen": "2026-10-23 16:59",
-   "is_new": false
-  },
-  {
-   "id": "news:수도권물류센터새로짓는것보다기존매물사는게저렴",
-   "src": "뉴스",
-   "title": "\"수도권 물류센터, 새로 짓는 것보다 기존 매물 사는 게 저렴\"",
-   "addr": "",
-   "sido": "",
-   "org": "뉴스핌",
-   "status": "보도",
-   "date": "2026-09-22",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iUUNscF9oTzBidXNZY0RJekYxYjBCdy1kUVRxSlNfOWYtZ3dLOGcxY2NGS1BaWkducDctWjIwRnVYczQ0Q0w5N3QtT1ZQYWtuZlhkdy1YLUhhSjRT?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-03 08:24",
    "is_new": false
   },
   {
@@ -423,10 +378,10 @@
    "title": "마이다스에셋운용, 김포 대포물류센터 인수",
    "addr": "김포",
    "sido": "",
-   "org": "블로그",
+   "org": "딜사이트",
    "status": "보도",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QX1Z1WlJESjBvbGZkeHgtOGtqSFFzVU9wZ2Z2Nk5Rd3hfZmNuSXZCcU9GS29nQW5RSXkzV0podUp6aXR1azJ6TUtrY1JDUnRFLVFDejd3dGhrdWVoV2l5WFAyY2hCQXdkT0ljbG9MWHBrU3FqU3RyclBHSERsOE0?oc=5",
+   "date": "2026-10-26",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsNU1XREpMdGtDaHBCVGZpVDlQTklueS1nVWFMcTd1WVpSNVc5ak1EeUVMdjcyUXZQbGtLRHFHeXc3MlJyNlZtN3FCSElzaFU?oc=5",
    "query": "저온 물류센터 매각",
    "cold": false,
    "loc_tier": null,
@@ -456,25 +411,6 @@
    "is_new": false
   },
   {
-   "id": "news:수도권물류센터개발보다인수로투자공식변화",
-   "src": "뉴스",
-   "title": "수도권 물류센터, 개발보다 인수로 투자 공식 변화",
-   "addr": "",
-   "sido": "",
-   "org": "프라임경제",
-   "status": "보도",
-   "date": "2026-09-22",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yUk1TUGg4c0V1bFluNkNMR09XWENhVGY2QVR1dTRCRmxtOGNfNW5zU1h0NThKcDFqekRWQ1dXaWNtejl4Q2dMNXByU1ZrMlZabDcyeVYtVjYzcHdzSk9uSHNOWGI1WjFVcHhjMHVtYjUzdw?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-03 08:24",
-   "is_new": false
-  },
-  {
    "id": "news:신영에셋수도권물류센터신규개발보다기존자산매입이유리",
    "src": "뉴스",
    "title": "신영에셋 “수도권 물류센터, 신규 개발보다 기존 자산 매입이 유리”",
@@ -484,7 +420,7 @@
    "status": "보도",
    "date": "2026-09-22",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0NHRTQnU2SW5ESURXMTJFTC1nZ0R4ZjBFUEtWQzdjcUZaU0hTNkwzcFhlbG9EV2pBbXFZSjVrRVZFUV84ZTA4bWNDNkpTaUYyVVHSAVNBVV95cUxOMV9TN2hndEUyenhQUWw3NkZYYXQtLUZLQjhsTExJcHd6alU5dWZvaDZhb1NPWDdVMHQzWDBQNGphSmtzaFBJS1o2R2NlWXZBNGUzWQ?oc=5",
-   "query": "물류센터 공매",
+   "query": "물류센터 경매",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
