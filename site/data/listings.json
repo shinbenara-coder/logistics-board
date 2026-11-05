@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 14:44",
+ "updated": "2026-11-05 18:44",
  "criteria": {
   "regions": [
    "경기",
@@ -335,23 +335,23 @@
    "is_new": false
   },
   {
-   "id": "news:KKR이인수마무리못한퍼시픽신세계HUB물류센터MG리얼에스테이트가투자추진SP",
+   "id": "news:경기이천신갈리16만평신축물류센터공매로나와",
    "src": "뉴스",
-   "title": "KKR이 인수 마무리 못한 퍼시픽 ‘신세계HUB물류센터’, M&G리얼에스테이트가 투자 추진 - SPI",
-   "addr": "",
+   "title": "경기 이천 신갈리 1.6만평 신축 물류센터 공매로 나와",
+   "addr": "이천",
    "sido": "",
-   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "org": "코어비트",
    "status": "보도",
-   "date": "2026-09-21",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYMkVsSEU1T2lYcllwaVgwdVRwazFCOGlvTE9jMFFqVWxBdy1DTlJhVVJQZkhhMFVnZHRFdnozMG1pa2Mtd3d2alBrTEpwNWQwWEozLWczWW15Y2s?oc=5",
-   "query": "물류센터 매각 우선협상",
+   "date": "2026-11-04",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01SEtrRkFtdF9RY1JSOG5obFJ4Zm9zS3BjZHRVa0Zzby1CTFFaSDluV2d5T0hocmZ0YlRjWnVvTDZLWjdobUl1X2J2Z3ZXSXNK?oc=5",
+   "query": "저온 물류센터 매각",
    "cold": false,
-   "loc_tier": null,
+   "loc_tier": 2,
    "price_tier": null,
    "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-10-23 16:52",
-   "is_new": false
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-11-05 18:44",
+   "is_new": true
   },
   {
    "id": "news:마이다스에셋모건스탠리와손잡고공매로나온김포물류센터평당370만원에인수SPI",
