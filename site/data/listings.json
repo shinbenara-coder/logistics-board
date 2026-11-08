@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 18:29",
+ "updated": "2026-11-09 08:21",
  "criteria": {
   "regions": [
    "경기",
@@ -491,23 +491,23 @@
    "is_new": false
   },
   {
-   "id": "news:투자자금회수나선LF물류센터2700억에매각",
+   "id": "news:코람코라이프인프라리츠유증없이안양물류센터2700억인수",
    "src": "뉴스",
-   "title": "투자자금 회수 나선 LF...물류센터 2700억에 매각",
+   "title": "코람코라이프인프라리츠, 유증 없이 안양물류센터 2700억 인수",
    "addr": "",
    "sido": "",
-   "org": "아시아투데이",
+   "org": "이투데이",
    "status": "보도",
-   "date": "2026-11-03",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMko2YmkzekhWcjlmZ3liaGYxTlMyOXZ2Z0ZXbndtRU95aXVZdGR6Q2VtM3gxd3dvWmlyYlZHSHJGRGlSWDB0aThqY19fSWFTRU9YM1ZKdExtelg2blRvUVR1RWd4TDlkc0s0OVNB?oc=5",
+   "date": "2026-10-27",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0MmRiTEFiMWF4dDlrVzVhclptODZWU0pPemdWdnRkUExkSDdsRkhBeXJoeUJPVGptODhYcmo3bG8wQVVJNzZuN1NjaURtaVNCbUFZVQ?oc=5",
    "query": "물류센터 매각 우선협상",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-04 08:26",
-   "is_new": false
+   "first_seen": "2026-11-09 08:21",
+   "is_new": true
   }
  ]
 }
