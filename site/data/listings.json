@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 14:47",
+ "updated": "2026-11-09 18:44",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 8,
+   "count": 9,
    "message": ""
   },
   {
@@ -339,7 +339,7 @@
    "grade": "B",
    "why": "상온/미확인 · 위치 1순위 · 금액 2순위 · 규모 적정",
    "first_seen": "2026-11-09 14:47",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
@@ -454,6 +454,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-30 14:26",
    "is_new": false
+  },
+  {
+   "id": "news:음성금왕테크노밸리복합물류센터매물로캐피탈마켓그룹재정비한쿠시먼이매각자문SPI",
+   "src": "뉴스",
+   "title": "음성 금왕테크노밸리 복합물류센터 매물로, 캐피탈마켓그룹 재정비한 쿠시먼이 매각자문 - SPI",
+   "addr": "음성",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-10-30",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WZm9XV0luYlNqSUhmcVlDQm8tRW9lUlpQNW1pangwXzdkUGhfRElVbEF2dGJ4YTBjME5DMi1CTzFmQTNUN2dGT1lRUGJCODBhTk11QnhxTDVTcmc?oc=5",
+   "query": "저온 물류센터 매각",
+   "cold": false,
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-11-09 18:44",
+   "is_new": true
   },
   {
    "id": "m-hoeeok",
