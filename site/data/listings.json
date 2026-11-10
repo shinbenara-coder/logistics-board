@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 08:26",
+ "updated": "2026-11-10 14:38",
  "criteria": {
   "regions": [
    "경기",
@@ -136,7 +136,7 @@
   {
    "name": "온비드 공매",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "message": ""
   },
   {
@@ -290,32 +290,6 @@
    "is_new": false
   },
   {
-   "id": "onbid:2024-08562-003",
-   "src": "온비드 공매",
-   "title": "경기도 안성시 미양면 개정리 210-1 제1동 (토지 및 건물)",
-   "addr": "경기도 안성시 미양면",
-   "sido": "경기",
-   "usage": "산업용및기타특수용건물 > 창고시설",
-   "org": "한국자산관리공사",
-   "prpt": "압류재산",
-   "area_py": 8322,
-   "land_py": 4662,
-   "appraisal_eok": 734.0,
-   "price_eok": 220.2,
-   "price_note": "최저입찰가(감정가의 30%)",
-   "fails": 2,
-   "status": "입찰진행중",
-   "deadline": "2026-11-11 17:00",
-   "url": "https://www.onbid.co.kr/op/cltrpbancinf/cltrdtl/CltrDtlController/mvmnCltrDtl.do?cltrScrnGrpCd=0001&cltrPrptDivCd=0007&onbidCltrno=1790789&onbidPbancNo=897323&pbctNo=10078745&pbctCdtnNo=6100607",
-   "cold": false,
-   "loc_tier": 3,
-   "price_tier": 1,
-   "grade": "B",
-   "why": "상온/미확인 · 위치 3순위 · 금액 1순위 · 규모 적정",
-   "first_seen": "2026-10-23 16:59",
-   "is_new": false
-  },
-  {
    "id": "onbid:2026-1000-058042",
    "src": "온비드 공매",
    "title": "경기도 용인시 처인구 원삼면 가재월리 420 창고시설",
@@ -396,7 +370,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-10 08:26",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:마이다스에셋모건스탠리와손잡고공매로나온김포물류센터평당370만원에인수SPI",
@@ -506,7 +480,7 @@
    "org": "Chosunbiz",
    "status": "보도",
    "date": "2026-10-28",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDdxMFliSkI4dzZNRTFYdS13WG45S091a293OFgwbUswWF9PN1d4WTFmblNqcVZXcURvRmRSNWFYRl9Oa2NPXzJYdlZUR3Fkb2JSR0RpVEdMeHJkTjRTN2Q3M19pSzl1c25JeTB4Mmc3dFpJb0dIYU5FRkVQOTRvUE9TSTZidXM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDdxMFliSkI4dzZNRTFYdS13WG45S091a293OFgwbUswWF9PN1d4WTFmblNqcVZXcURvRmRSNWFYRl9Oa2NPXzJYdlZUR3Fkb2JSR0RpVEdMeHJkTjRTN2Q3M19pSzl1c25JeTB4Mmc3dFpJb0dIYU5FRkVQOTRvUE9TSTZidXPSAZsBQVVfeXFMT3ZacVVvUlhuSTlsaENGNTRGZmRyV0lmejl0NHVKcVl2bGVfVks1bFZpUFJjYm95eU1KMkYybjBrR2E3NTlJUTBqbExaSk1fbW1LNUhsbUtiNDNuRnVCM2Y4MC1aLW5CWHNZT2toYnhjYnhSOG9NQUMwNnExdEYtZWRXN3h1dlA2MWRQNnlVYjdrakNuQUNLVExJaFE?oc=5",
    "query": "저온 물류센터 매각",
    "cold": false,
    "loc_tier": null,
@@ -552,7 +526,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-11-10 08:26",
-   "is_new": true
+   "is_new": false
   }
  ]
 }
