@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 14:43",
+ "updated": "2026-11-13 18:47",
  "criteria": {
   "regions": [
    "경기",
@@ -430,25 +430,6 @@
    "is_new": false
   },
   {
-   "id": "news:이지스자산운용베인캐피탈과평택여주물류센터인수추진",
-   "src": "뉴스",
-   "title": "이지스자산운용, 베인캐피탈과 평택·여주 물류센터 인수 추진",
-   "addr": "여주",
-   "sido": "",
-   "org": "PRESS9",
-   "status": "보도",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wRzdQWE9IQmVJbHNpRVY4bkxvQnZiSTdDdlEtQjhNeFdlMUVyNEJseWFVa2c0NnlMYjhJS2RaczVHREljeWtrelFuRjN2ZWw2a2lhYnQ3Wl85QmZlZFY5THAwbW8?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": 2,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
-   "first_seen": "2026-11-10 18:41",
-   "is_new": false
-  },
-  {
    "id": "m-hoeeok",
    "src": "중개",
    "title": "이천 마장 회억리 저온창고",
@@ -508,6 +489,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-31 18:25",
    "is_new": false
+  },
+  {
+   "id": "news:투자자금회수나선LF물류센터2700억에매각",
+   "src": "뉴스",
+   "title": "투자자금 회수 나선 LF...물류센터 2700억에 매각",
+   "addr": "",
+   "sido": "",
+   "org": "아시아투데이",
+   "status": "보도",
+   "date": "2026-11-03",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lMko2YmkzekhWcjlmZ3liaGYxTlMyOXZ2Z0ZXbndtRU95aXVZdGR6Q2VtM3gxd3dvWmlyYlZHSHJGRGlSWDB0aThqY19fSWFTRU9YM1ZKdExtelg2blRvUVR1RWd4TDlkc0s0OVNB?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-13 18:47",
+   "is_new": true
   },
   {
    "id": "news:페블스톤AEW평택여주물류센터통매각이지스운용베인캐피탈우협선정",
