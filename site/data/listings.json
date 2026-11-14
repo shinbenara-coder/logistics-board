@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 18:29",
+ "updated": "2026-11-15 08:21",
  "criteria": {
   "regions": [
    "경기",
@@ -354,22 +354,22 @@
    "is_new": false
   },
   {
-   "id": "news:마스턴양주물류센터공매눈높이감정가43로낮춰",
+   "id": "news:마스턴양주물류센터공매눈높이감정가43로낮춰네이버블로그",
    "src": "뉴스",
-   "title": "마스턴, 양주 물류센터 공매…눈높이 감정가 43%로 낮춰",
+   "title": "마스턴, 양주 물류센터 공매…눈높이 감정가 43%로 낮춰 : 네이버 블로그",
    "addr": "양주",
    "sido": "",
-   "org": "딜사이트",
+   "org": "Naver Blog",
    "status": "보도",
-   "date": "2026-11-06",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HNERwSzV3d1VBSkJmOEZsQjA5Y1N1M2NreFhLU01vTWNUT2czc2xwb0I2WEdIU25TOFFGTTltUzl6dDEtOFNuQmtQeTRzQmc?oc=5",
-   "query": "물류센터 공매",
+   "date": "2026-11-08",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcG1OLWhCa3ZhNGxLa0FYdUNrRTJ6NFRabW9IbjQ3Q2pTQnhCTGRpcFB3dEtIbElhUkRJMFFvTi1jN051YnZSU3R2d21VZ2lZaUFQaXF3UUlZTmtMN0VSS1RNY0pzNU1IUXFkbEhjWkp1QmdseTVsR1RXUzlmWHZDcGVNVnpNeWVkQ0JMRWd2VQ?oc=5",
+   "query": "저온 물류센터 매각",
    "cold": false,
    "loc_tier": null,
    "price_tier": null,
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-14 18:29",
+   "first_seen": "2026-11-15 08:21",
    "is_new": true
   },
   {
@@ -507,7 +507,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-14 18:29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:투자자금회수나선LF물류센터2700억에매각",
