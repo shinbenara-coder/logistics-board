@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 08:30",
+ "updated": "2026-11-16 14:56",
  "criteria": {
   "regions": [
    "경기",
@@ -304,7 +304,7 @@
    "price_eok": 356.5,
    "price_note": "최저입찰가(감정가의 100%)",
    "fails": 1,
-   "status": "입찰준비중",
+   "status": "입찰진행중",
    "deadline": "2026-11-17 17:00",
    "url": "https://www.onbid.co.kr/op/cltrpbancinf/cltrdtl/CltrDtlController/mvmnCltrDtl.do?cltrScrnGrpCd=0001&cltrPrptDivCd=0005&onbidCltrno=2072027&onbidPbancNo=912807&pbctNo=10117520&pbctCdtnNo=6272415",
    "cold": false,
@@ -446,7 +446,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-11-16 08:30",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "m-hoeeok",
