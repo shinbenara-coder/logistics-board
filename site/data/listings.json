@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 14:44",
+ "updated": "2026-11-17 18:46",
  "criteria": {
   "regions": [
    "경기",
@@ -136,14 +136,14 @@
   {
    "name": "온비드 공매",
    "ok": true,
-   "count": 2,
-   "message": ""
+   "count": 1,
+   "message": "0005/Y p29: 503 {\n  \"OpenAPI_ServiceResponse\": {\n    \"cmmMsgHeader\": {\n      \"errMsg\": \"SERVICETIMEOUT_ERROR\",\n      \"returnAuthMsg\": \"서; 0010/N p1: 503 {\n  \"OpenAPI_ServiceResponse\": {\n    \"cmmMsgHeader\": {\n      \"errMsg\": \"SERVICETIMEOUT_ERROR\",\n      \"returnAuthMsg\": \"서; 0010/Y p1: 500 {\n  \"OpenAPI_ServiceResponse\": {\n    \"cmmMsgHeader\": {\n      \"errMsg\": \"APPLICATION_ERROR\",\n      \"returnAuthMsg\": \"어플리케"
   },
   {
    "name": "뉴스",
    "ok": true,
-   "count": 8,
-   "message": "냉동창고 매각: not well-formed (invalid token): line 1, column 252; 물류센터 공매: not well-formed (invalid token): line 1, column 252; 냉동창고 공매: not well-formed (invalid token): line 1, column 252"
+   "count": 12,
+   "message": ""
   },
   {
    "name": "수동 등록(경매·중개)",
@@ -290,32 +290,6 @@
    "is_new": false
   },
   {
-   "id": "onbid:2026-1000-058042",
-   "src": "온비드 공매",
-   "title": "경기도 용인시 처인구 원삼면 가재월리 420 창고시설",
-   "addr": "경기도 용인시 처인구 원삼면",
-   "sido": "경기",
-   "usage": "산업용및기타특수용건물 > 창고시설",
-   "org": "한국자산관리공사",
-   "prpt": "기타일반재산",
-   "area_py": 4798,
-   "land_py": 6053,
-   "appraisal_eok": 356.5,
-   "price_eok": 356.5,
-   "price_note": "최저입찰가(감정가의 100%)",
-   "fails": 1,
-   "status": "입찰진행중",
-   "deadline": "2026-11-17 17:00",
-   "url": "https://www.onbid.co.kr/op/cltrpbancinf/cltrdtl/CltrDtlController/mvmnCltrDtl.do?cltrScrnGrpCd=0001&cltrPrptDivCd=0005&onbidCltrno=2072027&onbidPbancNo=912807&pbctNo=10117520&pbctCdtnNo=6272415",
-   "cold": false,
-   "loc_tier": 1,
-   "price_tier": 2,
-   "grade": "B",
-   "why": "상온/미확인 · 위치 1순위 · 금액 2순위 · 규모 적정",
-   "first_seen": "2026-11-09 14:47",
-   "is_new": false
-  },
-  {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
    "src": "뉴스",
    "title": "1900억 물류센터 인수 10개월만에…'공실 제로' 달성한 비결",
@@ -333,6 +307,82 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-23 16:52",
    "is_new": false
+  },
+  {
+   "id": "news:경기이천신갈리16만평신축물류센터공매로나와",
+   "src": "뉴스",
+   "title": "경기 이천 신갈리 1.6만평 신축 물류센터 공매로 나와",
+   "addr": "이천",
+   "sido": "",
+   "org": "코어비트",
+   "status": "보도",
+   "date": "2026-11-04",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01SEtrRkFtdF9RY1JSOG5obFJ4Zm9zS3BjZHRVa0Zzby1CTFFaSDluV2d5T0hocmZ0YlRjWnVvTDZLWjdobUl1X2J2Z3ZXSXNK?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-11-17 18:46",
+   "is_new": true
+  },
+  {
+   "id": "news:마스턴양주물류센터공매눈높이감정가43로낮춰",
+   "src": "뉴스",
+   "title": "마스턴, 양주 물류센터 공매…눈높이 감정가 43%로 낮춰",
+   "addr": "양주",
+   "sido": "",
+   "org": "딜사이트",
+   "status": "보도",
+   "date": "2026-11-06",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HNERwSzV3d1VBSkJmOEZsQjA5Y1N1M2NreFhLU01vTWNUT2czc2xwb0I2WEdIU25TOFFGTTltUzl6dDEtOFNuQmtQeTRzQmc?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-17 18:46",
+   "is_new": true
+  },
+  {
+   "id": "news:마스턴프리미어리츠아마존장기임차물류센터손실매각",
+   "src": "뉴스",
+   "title": "마스턴프리미어리츠, 아마존 장기임차 물류센터 손실 매각",
+   "addr": "",
+   "sido": "",
+   "org": "코어비트",
+   "status": "보도",
+   "date": "2026-10-29",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56aWUtX05NQmtlTHpqR1RtM0NvMnhCUnhNMUViS0hsckxsc1c5dVU0dVpNMTFBdTZvYTlhbm91SDZUU2xRSjZYUW1XMU10bFN3?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-17 18:46",
+   "is_new": true
+  },
+  {
+   "id": "news:마이다스에셋모건스탠리와손잡고공매로나온김포물류센터평당370만원에인수SPI",
+   "src": "뉴스",
+   "title": "마이다스에셋, 모건스탠리와 손잡고 공매로 나온 김포 물류센터 평당 370만원에 인수 - SPI",
+   "addr": "김포",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-10-19",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxSjczMy1Va1IwaUstaHZ4bnNIRDdHNnhTTVBpaHdfRGwzV29DV1NiRVdMRjZSaUM4c1ljb05uZGYzYk52UXIwWWdFYUlFWkMtem9xMnYxUFc3TEU?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-17 18:46",
+   "is_new": true
   },
   {
    "id": "news:마이다스에셋운용김포대포물류센터인수",
@@ -370,7 +420,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-11-17 14:44",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:이지스자산운용베인캐피탈과평택여주물류센터인수추진",
