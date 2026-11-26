@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 13:32",
+ "updated": "2026-11-26 23:32",
  "criteria": {
   "regions": [
    "경기",
@@ -142,8 +142,8 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 17,
-   "message": ""
+   "count": 20,
+   "message": "냉동창고 매각: not well-formed (invalid token): line 1, column 252"
   },
   {
    "name": "수동 등록(경매·중개)",
@@ -332,7 +332,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-26 13:32",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:1900억물류센터인수10개월만에공실제로달성한비결",
@@ -354,6 +354,25 @@
    "is_new": false
   },
   {
+   "id": "news:CBREIM화성덕절리물류센터부지인수해3만평규모로직접개발",
+   "src": "뉴스",
+   "title": "CBRE IM, 화성 덕절리 물류센터 부지 인수해 3만평 규모로 직접 개발",
+   "addr": "화성",
+   "sido": "",
+   "org": "코어비트",
+   "status": "보도",
+   "date": "2026-11-11",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5pcl95ZEMwTWMzSmF0X3FCcjdDN25mQkxGZGtqT1dRaFM1aGYwZWRyQjg0cFA2Ykd4Q2FXMXVxemVwcW54MjdOeFNsVVhGWXJB?oc=5",
+   "query": "물류센터 공매",
+   "cold": false,
+   "loc_tier": 1,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 1순위 · 금액 미상",
+   "first_seen": "2026-11-26 23:32",
+   "is_new": true
+  },
+  {
    "id": "news:EOD후4개월간교착상태부천내동물류센터선순위대주단중심으로경매추진속도SPI",
    "src": "뉴스",
    "title": "EOD 후 4개월 간 교착상태 ‘부천 내동 물류센터’, 선순위 대주단 중심으로 경매 추진 속도 - SPI",
@@ -370,25 +389,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-26 00:02",
-   "is_new": false
-  },
-  {
-   "id": "news:경기이천신갈리16만평신축물류센터공매로나와",
-   "src": "뉴스",
-   "title": "경기 이천 신갈리 1.6만평 신축 물류센터 공매로 나와",
-   "addr": "이천",
-   "sido": "",
-   "org": "코어비트",
-   "status": "보도",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01SEtrRkFtdF9RY1JSOG5obFJ4Zm9zS3BjZHRVa0Zzby1CTFFaSDluV2d5T0hocmZ0YlRjWnVvTDZLWjdobUl1X2J2Z3ZXSXNK?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": 2,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
-   "first_seen": "2026-11-17 18:46",
    "is_new": false
   },
   {
@@ -503,7 +503,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-26 13:32",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:세빌스코리아JLL코리아아레나스양지물류센터매각자문완료",
@@ -522,6 +522,25 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-26 13:32",
+   "is_new": false
+  },
+  {
+   "id": "news:아레나스양지물류센터CJ대한통운참여로최고가매각",
+   "src": "뉴스",
+   "title": "아레나스 양지 물류센터, CJ대한통운 참여로 최고가 매각",
+   "addr": "",
+   "sido": "",
+   "org": "데일리바이트(DAILY BYTE)",
+   "status": "보도",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTmhiWm5iTnpDdDc2QjdwaXQ1OWZTX1MxUmhtM2kwTzVTRTNheHA5d0FkOGM4SDFGWno2eWo5TE5Kb0JaRDA3YUFuaWF6OTB0Zy0tbmhncWJBS2VEOFlPTHBrSFBXcFk1Z01xQVlhR19pREZOWW9ha04xR0JzR3Qxd2VkTkZUdw?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-26 23:32",
    "is_new": true
   },
   {
@@ -542,6 +561,25 @@
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-11-17 14:44",
    "is_new": false
+  },
+  {
+   "id": "news:이지스베스타스가매각하는이천대대리물류센터우협베인캐피탈과협업SPI",
+   "src": "뉴스",
+   "title": "이지스, 베스타스가 매각하는 ‘이천 대대리 물류센터’ 우협 .. 베인캐피탈과 협업 - SPI",
+   "addr": "이천",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ybHBiODgyVEt5WHlKTzVjbGoyX3J3WFJBQndpa1BoNl9NWmRIY05RM2dscl9HN2dRbk9DTFVlRUF0Qko4c1ltdFJQZHBHb29xN0gwR2hIMnVtREk?oc=5",
+   "query": "저온 물류센터 매각",
+   "cold": false,
+   "loc_tier": 2,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 2순위 · 금액 미상",
+   "first_seen": "2026-11-26 23:32",
+   "is_new": true
   },
   {
    "id": "news:이지스자산운용베인캐피탈과평택여주물류센터인수추진",
@@ -603,6 +641,25 @@
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-28 08:16",
    "is_new": false
+  },
+  {
+   "id": "news:코람코아레나스양지물류센터인수",
+   "src": "뉴스",
+   "title": "코람코, 아레나스 양지 물류센터 인수",
+   "addr": "",
+   "sido": "",
+   "org": "파이낸셜뉴스",
+   "status": "보도",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aczc2Wkw0dFRvM2lGcVVZMWkyOE9qM0RLdWxmS3VIY3YyWWFtTnVXZjExeUVGUVBxQzI4WVFSVDZSeE1UaS11bXA1Z3lwZnhpSHNUWmRXTnNNdw?oc=5",
+   "query": "냉장 물류센터 매각",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-26 23:32",
+   "is_new": true
   },
   {
    "id": "news:코람코라이프인프라리츠안양물류센터2700억에인수",
