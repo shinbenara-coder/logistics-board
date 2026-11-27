@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 13:36",
+ "updated": "2026-11-27 23:26",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 23,
+   "count": 18,
    "message": ""
   },
   {
@@ -313,25 +313,6 @@
    "grade": "B",
    "why": "상온/미확인 · 위치 1순위 · 금액 2순위 · 규모 적정",
    "first_seen": "2026-11-23 14:49",
-   "is_new": false
-  },
-  {
-   "id": "news:감정가보다19싸게매입코람코리츠안양물류센터편입",
-   "src": "뉴스",
-   "title": "\"감정가보다 19% 싸게 매입…\" 코람코리츠, 안양 물류센터 편입",
-   "addr": "",
-   "sido": "",
-   "org": "파이낸셜뉴스",
-   "status": "보도",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucXp1MTcwZW9rY3ZOdmxPYWhoREc2NXlOQ2VhSmJxOC15bV9nYVRZRWJ1dDZsS1Bzbk92TlUzbDRNTnhITHRMUkpDUXpJTkFNYmowSmJsU2dBZw?oc=5",
-   "query": "냉장 물류센터 매각",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-26 13:32",
    "is_new": false
   },
   {
@@ -624,25 +605,6 @@
    "is_new": false
   },
   {
-   "id": "news:케펠쿠팡이임차하는인천신흥동ILC물류센터우협유력MOU협의진행SPI",
-   "src": "뉴스",
-   "title": "케펠, 쿠팡이 임차하는 인천 신흥동 ILC 물류센터 우협 유력 .. MOU 협의 진행 - SPI",
-   "addr": "인천",
-   "sido": "",
-   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
-   "status": "보도",
-   "date": "2026-11-27",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wSjdJT1c2Tl9seXlOQU1rQzJzMlpCaDUyaW1tSTV1aXk3SzlhMGpqdmcyMkx0djJGME93ZEtVV0xBWWJ3MGg3aW1CUThhY1Vham1wS3RMWEItTWc?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-27 13:36",
-   "is_new": true
-  },
-  {
    "id": "news:코람코아레나스양지물류센터인수",
    "src": "뉴스",
    "title": "코람코, 아레나스 양지 물류센터 인수",
@@ -678,25 +640,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-31 18:25",
-   "is_new": false
-  },
-  {
-   "id": "news:코람코라이프인프라리츠유증없이안양물류센터2700억인수",
-   "src": "뉴스",
-   "title": "코람코라이프인프라리츠, 유증 없이 안양물류센터 2700억 인수",
-   "addr": "",
-   "sido": "",
-   "org": "이투데이",
-   "status": "보도",
-   "date": "2026-10-27",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0MmRiTEFiMWF4dDlrVzVhclptODZWU0pPemdWdnRkUExkSDdsRkhBeXJoeUJPVGptODhYcmo3bG8wQVVJNzZuN1NjaURtaVNCbUFZVQ?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-27 03:40",
    "is_new": false
   },
   {
@@ -736,44 +679,6 @@
    "why": "상온/미확인 · 위치 2순위 · 금액 미상",
    "first_seen": "2026-11-10 08:26",
    "is_new": false
-  },
-  {
-   "id": "news:현대그린푸드1500억원에메디굿파트너스인수의료물류사업진출",
-   "src": "뉴스",
-   "title": "현대그린푸드, 1500억원에 메디굿파트너스 인수…의료 물류사업 진출",
-   "addr": "",
-   "sido": "",
-   "org": "매일일보",
-   "status": "보도",
-   "date": "2026-11-26",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lTEtnNUZHUEpSUFlVSkRmWkE1alJ5RjR6cmx4UjBTTTlYdEZDeS01MGZxMmNNN1dpR2hKOExDU2p5VDZtcUplN2k0Ty1rZmt1YUlkUnZBdXZDc2tGeHJ3UjkwdFc?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-27 03:40",
-   "is_new": false
-  },
-  {
-   "id": "news:현대그린푸드메디굿파트너스1500억원에인수의료물류로사업다각화",
-   "src": "뉴스",
-   "title": "현대그린푸드, 메디굿파트너스 1500억원에 인수…의료 물류로 사업 다각화",
-   "addr": "",
-   "sido": "",
-   "org": "이지경제",
-   "status": "보도",
-   "date": "2026-11-26",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jOEp4V2JWZlMzbl9jT0hpaVRkWVVTNnZJRkFURFVqdDdmVm5XdWU4ZF9Ba0Y4QmYtdzU1b09fWFFvRkFvd3BFRVdKNkdzMHhQMzc2QjhGMzFsd2NhbGFFMElpQzBSSkZMOXR5RXFR?oc=5",
-   "query": "물류센터 매각 우선협상",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-27 13:36",
-   "is_new": true
   }
  ]
 }
