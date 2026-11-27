@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 03:40",
+ "updated": "2026-11-27 13:36",
  "criteria": {
   "regions": [
    "경기",
@@ -142,7 +142,7 @@
   {
    "name": "뉴스",
    "ok": true,
-   "count": 22,
+   "count": 23,
    "message": ""
   },
   {
@@ -370,25 +370,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 1순위 · 금액 미상",
    "first_seen": "2026-11-26 23:32",
-   "is_new": false
-  },
-  {
-   "id": "news:EOD후4개월간교착상태부천내동물류센터선순위대주단중심으로경매추진속도SPI",
-   "src": "뉴스",
-   "title": "EOD 후 4개월 간 교착상태 ‘부천 내동 물류센터’, 선순위 대주단 중심으로 경매 추진 속도 - SPI",
-   "addr": "부천",
-   "sido": "",
-   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
-   "status": "보도",
-   "date": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3bFdkbFB5MVRJc1ZCbWtBSHJvdFU4SXVZdGctYmYzTTJCbXVRV2VfMEx0SjAzUkxndDdiZzVPU3Y1Qi1ENm9kV1VyQmxjQzZPMWtJeWxwb3BtSk0?oc=5",
-   "query": "물류센터 경매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-26 00:02",
    "is_new": false
   },
   {
@@ -643,6 +624,25 @@
    "is_new": false
   },
   {
+   "id": "news:케펠쿠팡이임차하는인천신흥동ILC물류센터우협유력MOU협의진행SPI",
+   "src": "뉴스",
+   "title": "케펠, 쿠팡이 임차하는 인천 신흥동 ILC 물류센터 우협 유력 .. MOU 협의 진행 - SPI",
+   "addr": "인천",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wSjdJT1c2Tl9seXlOQU1rQzJzMlpCaDUyaW1tSTV1aXk3SzlhMGpqdmcyMkx0djJGME93ZEtVV0xBWWJ3MGg3aW1CUThhY1Vham1wS3RMWEItTWc?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-27 13:36",
+   "is_new": true
+  },
+  {
    "id": "news:코람코아레나스양지물류센터인수",
    "src": "뉴스",
    "title": "코람코, 아레나스 양지 물류센터 인수",
@@ -697,7 +697,7 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-27 03:40",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "news:투자자금회수나선LF물류센터2700억에매각",
@@ -754,6 +754,25 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-27 03:40",
+   "is_new": false
+  },
+  {
+   "id": "news:현대그린푸드메디굿파트너스1500억원에인수의료물류로사업다각화",
+   "src": "뉴스",
+   "title": "현대그린푸드, 메디굿파트너스 1500억원에 인수…의료 물류로 사업 다각화",
+   "addr": "",
+   "sido": "",
+   "org": "이지경제",
+   "status": "보도",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jOEp4V2JWZlMzbl9jT0hpaVRkWVVTNnZJRkFURFVqdDdmVm5XdWU4ZF9Ba0Y4QmYtdzU1b09fWFFvRkFvd3BFRVdKNkdzMHhQMzc2QjhGMzFsd2NhbGFFMElpQzBSSkZMOXR5RXFR?oc=5",
+   "query": "물류센터 매각 우선협상",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-27 13:36",
    "is_new": true
   }
  ]
