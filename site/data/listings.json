@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28 03:29",
+ "updated": "2026-11-28 13:21",
  "criteria": {
   "regions": [
    "경기",
@@ -370,6 +370,25 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-11-28 03:29",
+   "is_new": false
+  },
+  {
+   "id": "news:남양물류센터매각한하인즈수익자동일한일죽물류센터매각자문사에세빌스SPI",
+   "src": "뉴스",
+   "title": "남양 물류센터 매각한 하인즈, 수익자 동일한 '일죽 물류센터' 매각자문사에 세빌스 - SPI",
+   "addr": "",
+   "sido": "",
+   "org": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+   "status": "보도",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WN05PUzhqRk5yUFJJMUNjR3lFQzQ2TlkzdnpRR0pQekM1ckt3ZTJ0ZFczb1VFQVc2Ymk5UEUxMEpENVAtYk1ZT3luOGh1SVJLZ2JTNmZpZnpqT2M?oc=5",
+   "query": "저온 물류센터 매각",
+   "cold": false,
+   "loc_tier": null,
+   "price_tier": null,
+   "grade": "C",
+   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
+   "first_seen": "2026-11-28 13:21",
    "is_new": true
   },
   {
@@ -446,25 +465,6 @@
    "grade": "C",
    "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
    "first_seen": "2026-10-26 14:20",
-   "is_new": false
-  },
-  {
-   "id": "news:브룩필드비수도권경산물류센터매입한이유3가지",
-   "src": "뉴스",
-   "title": "브룩필드, 비수도권 '경산 물류센터' 매입한 이유 3가지",
-   "addr": "",
-   "sido": "",
-   "org": "딜북뉴스",
-   "status": "보도",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZkZWYUNVSjV6V1hoQ1VnbldYaGRaSVdPaHBOYm5PRGhmbGVNMnBtWkNCWUs0N3VwTUtOdkFVeWNndV9yb0lGdmdIVDJPY0dZOWpUVGU0R3V3NzJyclNlYjJOUEQ4Q1VhXzU2SmlHcWhhNGEtUnkteUxBZjZTWk0yZzdXSlRQYUlKTjdMc1FiM2ltbGNzWmV4YllwNHY5VElIbFFhRw?oc=5",
-   "query": "물류센터 공매",
-   "cold": false,
-   "loc_tier": null,
-   "price_tier": null,
-   "grade": "C",
-   "why": "상온/미확인 · 위치 순위 밖 · 금액 미상",
-   "first_seen": "2026-11-18 08:36",
    "is_new": false
   },
   {
